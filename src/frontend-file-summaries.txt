@@ -1,0 +1,17 @@
+{
+  "frontend/src/App.tsx": "Main application component managing screen navigation, authentication state, profile setup modal, and bottom navigation visibility across all screens.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including user profiles, test submissions, results retrieval, and health tips with proper caching and invalidation.",
+  "frontend/src/pages/SplashScreen.tsx": "Animated splash screen displaying EarlyCare logo and tagline with smooth fade-in animations and loading indicators.",
+  "frontend/src/pages/HomeScreen.tsx": "Home screen with four feature cards (Check Health, My Reports, Health Tips, Emergency Help), authentication-aware UI, and welcome messages with fixed conflicting Tailwind duration classes.",
+  "frontend/src/pages/TestScreen.tsx": "Multi-step health assessment form with progress indicator, collecting personal info, lifestyle factors, symptoms, and optional image upload.",
+  "frontend/src/pages/ResultScreen.tsx": "Results display screen showing risk level with color-coded cards, personalized advice, assessment summary, and action buttons for hospital finder and report download.",
+  "frontend/src/pages/HealthTipsScreen.tsx": "Health tips screen displaying prevention cards with icons for quit smoking, eat healthy, exercise, and regular checkups.",
+  "frontend/src/pages/EmergencyScreen.tsx": "Emergency help screen with large action buttons for calling 108, finding nearby hospitals, and future doctor chat feature.",
+  "frontend/src/pages/MyReportsScreen.tsx": "Reports screen displaying user's test history with detailed assessment information, risk factors, and medical advice with updated Tailwind v3 class names.",
+  "frontend/src/components/BottomNavigation.tsx": "Fixed bottom navigation bar with Home, Test, Tips, and Help tabs with active state indicators and smooth transitions.",
+  "frontend/src/components/LoginButton.tsx": "Authentication button component handling Internet Identity login/logout with loading states and proper error handling.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup collecting name and optional email with form validation.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining medical-themed teal/blue primary, soft green secondary, orange/purple accent colors, and custom animations.",
+  "frontend/src/hooks/useEditor.ts": "Placeholder editor initialization function called from main.tsx.",
+  "frontend/src/config.ts": "Configuration loader for canister ID and Internet Identity settings with actor creation helper."
+}
